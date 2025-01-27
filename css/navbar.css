@@ -1,0 +1,23 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+
+
+}
+.navbar_a_section{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav_logo{
+width: auto;
+
+}
+.nav_searchbar{
+width: auto;
+
+}
