@@ -21,14 +21,14 @@
     display: flex;
     /* justify-content: space-around; */
     /* align-items: center; */
-    /* gap: 40px; */
+    gap: 40px;
     /* margin: 19px; */
     padding: 20px;
 }
 ._3hf_divs{
    display: flex;
    flex-direction: column;
-   align-items: start;
+   align-items: center;
    gap: 10px;
    padding: 5px;
    
@@ -40,7 +40,8 @@
 ._3h_header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
+    
 }
 ._3h_header button {
     height: 40px;
