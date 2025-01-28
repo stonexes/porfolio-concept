@@ -1,13 +1,21 @@
 .third_half{
-    margin: 20px;
+    /* margin: 20px; */
     height: auto;
-    background-color: rgb(104, 160, 160);
+    background-color: rgb(25, 54, 54);
     /* display: flex; */
     /* justify-content: space-around; */
     align-items: center;
     /* gap: 20px; */
+    color: aliceblue;
     
     
+}
+.third_half h1{
+    color: orange;
+
+}
+.third_half h3{
+    color: orange;
 }
 ._3hf_box{
     display: flex;
@@ -25,10 +33,22 @@
    padding: 5px;
    
 }
+._3hf_divs i{
+    font-size: 70px;
+
+}
 ._3h_header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+._3h_header button {
+    height: 40px;
+    font-weight: bold;
+    padding: 5px;
+    color: azure;
+    background-color: rgb(0, 4, 248);
+    border-radius: 5px;
 }
 
 

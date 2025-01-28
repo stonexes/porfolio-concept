@@ -4,8 +4,12 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    margin: 10px;
+    /* margin: 10px; */
+    background-color:bisque;
     /* width: 80%; */
+    /* white-space: nowrap;
+   overflow: hidden;
+   text-overflow: "details"; */
 
 
 }
@@ -21,12 +25,22 @@
     justify-content: space-around;
     /* align-items: center; */
     padding: 10px;
-   
-    
+    text-decoration: none;
+    font-weight:600
+}
+._about{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbar_a_section a{
+    text-decoration: none;
+    font-size: large;
 }
 .nav_logo{
-    display: flex;
+    /* display: flex; */
     /* margin-inline-end: auto; */
+    font-size: 50px;
     
 
 }

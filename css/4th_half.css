@@ -1,27 +1,35 @@
 .fourth_half{
-    margin: 20px;
+    /* margin: 20px; */
     height: auto;
-    background-color: rgb(104, 160, 160);
+    background-color: rgb(255, 255, 255);
     /* display: flex; */
     /* justify-content: space-around; */
     align-items: center;
     /* gap: 20px; */
+    color: rgb(0, 0, 0);
     
     
+}
+.fourth_half h1{
+    color: blue;
+}
+.fourth_half h3{
+    color: blue;
 }
 ._4hf_box{
     display: flex;
     /* justify-content: space-around; */
     /* align-items: center; */
-    /* gap: 40px; */
-    /* margin: 19px; */
+    gap: 40px;
+    margin: 19px;
     padding: 20px;
 }
 ._4hf_divs{
    display: flex;
    flex-direction: column;
-   align-items: start;
-   gap: 10px;
+   align-items: center;
+   /* justify-content: space-around; */
+   /* gap: 50px; */
    padding: 5px;
    
 }
@@ -35,6 +43,9 @@
 ._4h_header p{
     width: 60%;
     text-align: center;
+}
+._4hf_box h1{
+    columns: dark blue;
 }
 
 

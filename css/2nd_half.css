@@ -1,7 +1,7 @@
 .second_half{
-    margin: 20px;
+    /* margin: 20px; */
     height: 35vh;
-    background-color: rgb(104, 160, 160);
+    background-color: rgb(255, 255, 255);
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 40px;
-    margin: 19px;
+    /* margin: 19px; */
     padding: 20px;
 }
 ._2hf_divs{
@@ -24,4 +24,7 @@
    gap: 20px;
    padding: 5px;
    
+}
+._2hf_divs i{
+    font-size: 70px;
 }

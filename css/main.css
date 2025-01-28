@@ -3,9 +3,10 @@
    margin: 0px;
    box-sizing: border-box;
    border: 1px solid black;
+   font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
    
 }
 
 body{
-   background-color: rgb(48, 42, 37);
+   background-color:transparent;
 }
