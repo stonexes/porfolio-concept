@@ -9,6 +9,12 @@
 
 
 }
+/* .navbar:first-child{
+    margin-right: auto;
+}
+.navbar:last-child{
+    margin-left: auto;
+} */
 .navbar_a_section{
     width: 50%;
     display: flex;
@@ -25,8 +31,21 @@
 
 }
 .nav_searchbar{
-    display: flex;
-    /* margin-inline-start: auto; */
+    /* position: relative; */
+    padding: 3px;
+   
 
+
+}
+.nav_searchbar input{
+    height:35px;
+    width: 10rem;
+    outline: none;
+    border: none;
+    /* padding: 10px; */
+    border-radius: 30px;
+}
+.nav_searchbar input[placeholder]{
+    padding: 10px;
 
 }
