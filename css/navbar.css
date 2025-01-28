@@ -4,6 +4,8 @@
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    margin: 10px;
+    /* width: 80%; */
 
 
 }
@@ -11,13 +13,20 @@
     width: 50%;
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
+    padding: 10px;
+   
     
 }
 .nav_logo{
-width: auto;
+    display: flex;
+    /* margin-inline-end: auto; */
+    
 
 }
 .nav_searchbar{
-width: auto;
+    display: flex;
+    /* margin-inline-start: auto; */
+
 
 }
