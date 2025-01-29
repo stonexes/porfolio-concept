@@ -1,40 +1,115 @@
 .footer_ {
-  height: 50vh;
+  /* height: 100%; */
   background-color: rgb(24, 42, 58);
 }
 
 .f_grid {
+  height: 50vh;
   margin-left: 10%;
   margin-right: 10%;
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(4, 100px);
-  align-items: center;
+  grid-template-columns: repeat(4, 0.2fr);
+  /* grid-template-rows: repeat(4, 100px); */
+  /* align-items: center; */
   justify-content: center;
-  row-gap: 1px;
-  column-gap: 2%;
+  /* row-gap: 1px;
+  column-gap: 2%; */
+  color: azure;
+  gap: 2%;
 }
+/* .f_grid div{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 .f_griditems10 {
   display: flex;
   flex-direction: column;
-
+  align-items: start;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: span 2;
+  gap: 5px;
+  padding: 5px;
 }
-.f_griditems10 button{
-    justify-self: end;
-
+.f_griditems10 button {
+  align-self: flex-end;
+  margin: 10px;
+  padding: 5px;
+  height: 1.8rem;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+.f_griditems10 input {
+  height: 1.8rem;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px;
 }
 .f_griditems7 {
   display: flex;
   align-items: center;
   gap: 5px;
+  border-bottom: 1px solid grey;
+  /* background-color: blueviolet; */
+}
+.f_griditems9 {
+  grid-column: 1;
+  grid-row: 3;
+  border-bottom: 1px solid grey;
+  /* background-color: brown; */
 }
 .f_griditems11 {
   display: flex;
   align-items: center;
   gap: 5px;
+  grid-column: 3;
+  grid-row: 4;
+  /* background-color: brown; */
+}
+.f_griditems13 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* background-color: brown; */
+  grid-column: 4;
+  grid-row: 2 /5;
+  gap: 10px;
 }
 .f_griditems15 {
   display: flex;
   align-items: center;
   gap: 5px;
+  border-bottom: 1px solid grey;
+  /* background-color: blanchedalmond; */
+  grid-row: 3;
+  grid-column: 3;
 }
+
+.f_griditems5{
+  border-bottom: 1px solid grey;
+}
+.f_griditems6{
+  border-bottom: 1px solid grey;
+}
+.f_griditems1 ,.f_griditems2, .f_griditems3, .f_griditems4,  .f_griditems6{
+  display:flex;
+  align-items: center;
+}
+.f_griditems16, .f_griditems9, .f_griditems5{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content: center;
+}
+
+/* .f13_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}  */
