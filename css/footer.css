@@ -95,9 +95,16 @@
 .f_griditems6{
   border-bottom: 1px solid grey;
 }
-.f_griditems1 ,.f_griditems2, .f_griditems3, .f_griditems4,  .f_griditems6{
+.f_griditems1 ,.f_griditems2, .f_griditems3, .f_griditems4{
   display:flex;
   align-items: center;
+  color:orange;
+}
+.f_griditems6{
+  display:flex;
+  align-items: center;
+  
+
 }
 .f_griditems16, .f_griditems9, .f_griditems5{
   display: flex;
